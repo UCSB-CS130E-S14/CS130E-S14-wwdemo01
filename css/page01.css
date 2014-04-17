@@ -1,0 +1,76 @@
+
+body { 
+    background-color: #003; 
+}
+
+#container { 
+    background-color: #efe;
+    width:600px; 
+    margin-left:auto; 
+    margin-right:auto;
+    padding: 1em;
+}
+
+#workerSpaceLabel {
+  font-family: sans-serif;
+  font-size: 120%;
+  font-weight:bold;
+  color: #900;
+}
+
+#workerSpace { 
+    width:80%;
+    height:5em;
+    text-align:right;
+    background-color: white;
+    color: black;
+    border: inset 5px red;
+    margin-top:1em;
+    margin-bottom:1em;
+
+}
+
+.centered { text-align:center; margin-left:auto; margin-right:auto; }
+
+
+/* The "orange button" code was generated using CSSButtonGenerator.com */
+
+.orangeButton {
+
+
+    -moz-box-shadow:inset 0px 1px 0px 0px #f9eca0;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #f9eca0;
+    box-shadow:inset 0px 1px 0px 0px #f9eca0;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f0c911), color-stop(1, #f2ab1e) );
+    background:-moz-linear-gradient( center top, #f0c911 5%, #f2ab1e 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0c911', endColorstr='#f2ab1e');
+    background-color:#f0c911;
+    -webkit-border-radius:37px;
+    -moz-border-radius:37px;
+    border-radius:37px;
+    text-indent:0;
+    border:1px solid #e65f44;
+    display:inline-block;
+    color:#c92200;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:65px;
+    line-height:65px;
+    width:auto;
+    padding-left: 0.5em; padding-right:0.5em;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #ded17c;
+}
+.orangeButton:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f2ab1e), color-stop(1, #f0c911) );
+    background:-moz-linear-gradient( center top, #f2ab1e 5%, #f0c911 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2ab1e', endColorstr='#f0c911');
+    background-color:#f2ab1e;
+}.orangeButton:active {
+    position:relative;
+    top:1px;
+}
+

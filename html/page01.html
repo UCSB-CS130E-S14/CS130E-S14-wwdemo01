@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<!-- An example of a web page with a webworker -->
+
+<head>
+
+<!-- the following bit of code pulls in JQuery, hosted by Google. -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+</script>
+<script src="../js/page01.js"></script>
+
+<link rel="stylesheet" type="text/css" href="../css/page01.css">
+
+</head>
+
+<body>
+
+<div id="container">
+
+<h1>A very simple WebWorker Example</h1>
+
+
+<p>This example would probably be written without a web worker.   The point isn't necessarily to illustrate a good use case.  Rather, it is to illustrate how to:</p>
+
+<ol>
+  <li>Set up a separate web worker thread.</li>
+  <li>Send a message to that thread to do something</li>
+  <ll>Get a message back from the thread when it is finished</li>
+</ol>
+
+
+<div id="workerSpaceLabel" class="centered">
+Web Worker Output
+</div>
+
+<div id="workerSpace" class="centered">
+</div><!-- id="workerSpace" -->
+
+<div id="mainThreadSpace">
+
+<div class="centered">
+<span id="startButton" class="orangeButton">Start the WebWorker</span>
+</div>
+
+</div><!-- id="mainThreadSpace" -->
+
+</body>
+
+</div> <!-- id="container" -->
+</html>
+
+
+
